@@ -2,7 +2,7 @@ import {
     onAuthReady
 } from "./authentication.js"
 
-function showDashboard() {
+function showName() {
     const nameElement = document.getElementById("name-goes-here"); // the <h1> element to display "Hello, {name}"
 
     // Wait for Firebase to determine the current authentication state.
@@ -27,4 +27,4 @@ function showDashboard() {
     });
 }
 
-showDashboard();
+showName();
